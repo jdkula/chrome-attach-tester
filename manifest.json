@@ -1,0 +1,19 @@
+{
+  "name": "Attachment Tester",
+  "version": "1.0",
+  "description": "Tests whether the debugger can be attached to the active tab.",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "debugger"
+  ],
+  "browser_action": {
+    "default_title": "Test Debugger Attachment",
+    "default_icon": "./check.png"
+  }
+}
